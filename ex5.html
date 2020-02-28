@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var texto="estamos com fome de saber muito javascript"
+        var resultado=""
+        var vetor = texto.split("-");
+        alert (vetor)
+        
+        for ( i=0; i<vetor.length; i++){
+            //replace (valor atual, novo valor)
+            vetor[i]= vetor[i].replace(vetor[i].slice(0,1).toUpperCase())
+            resultado = resultado + " " + vetor[i]
+        }
+            document.write(resultado)
+ </script>
+</body>
+</html>
