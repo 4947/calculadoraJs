@@ -8,20 +8,16 @@
 </head>
 <body>
     <script>
-        var texto="bom dia"
-        var resultado=""
-        var vetor = texto.split("-");
+        var texto="bom dia erick"
+        var resultado= ""
+        var vetor = texto.split(" ");
         alert (vetor)
         
-        for ( i=0; i<vetor.length; i++){
+        for (var i=0; i<vetor.length; i++){
             //replace (valor atual, novo valor)
-            vetor[i]= vetor[i].replace(vetor[i].slice(0,1).toUpperCase())
-            resultado = resultado + " " + vetor[i]
-        }
-            document.write(resultado)
+            resultado = vetor[i].replace(vetor[i].slice(0,1) ,vetor[i].slice(0,1).toUpperCase(''))
+            }
+            document.write(resultado);
  </script>
 </body>
 </html>
-
-var texto = "bom dia"
-var textoArea = textoArea.split("").replace(slice)

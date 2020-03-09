@@ -8,7 +8,19 @@
 </head>
 <body>
     <script>
-            
+            var str = "dog";
+            var vetor = str.split("");
+            var resultado = ""
+            for(var i=0; i<vetor.length; i++){
+                for(var j=0; j<vetor.length; j++){
+                    for(var k=0; k<vetor.length; k++){
+                        if(i != j && i != k && j != k){
+                            resultado = vetor[i]+vetor[j]+vetor[k]
+                            console.log(resultado)
+                        }
+                    }
+                }
+            }
     </script>
 </body>
 </html>
