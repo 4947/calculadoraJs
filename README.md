@@ -1,1 +1,1 @@
-# calculadoraJs
+# exercicios
